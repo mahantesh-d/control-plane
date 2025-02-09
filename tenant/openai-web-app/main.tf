@@ -1,5 +1,5 @@
 module "web_app_ai_bot" {
-  source                = "../modules/openai-chatbot"
+  source                = "../../modules/openai-chatbot"
   app_service_plan_name = var.app_service_plan_name
   bot_name              = var.bot_name
   location              = var.location
