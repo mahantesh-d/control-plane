@@ -1,5 +1,5 @@
 output "webapp_url" {
-    value = "https://${azurerm_linux_web_app.app.default_hostname}"  
+  value = "https://${azurerm_linux_web_app.app.default_hostname}"
 }
 
 output "openai_endpoint" {

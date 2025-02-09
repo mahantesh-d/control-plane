@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-    type = string  
+  type = string
 }
 
 variable "location" {
@@ -19,5 +19,21 @@ variable "web_app_name" {
 }
 
 variable "open_ai_name" {
+  type = string
+}
+
+variable "vnet_integration_subnet_name" {
+  type = string
+}
+
+variable "vnet_name" {
+  type = string
+}
+
+variable "vnet_resource_group" {
+  type = string
+}
+
+variable "subnet_name" {
   type = string
 }
