@@ -37,3 +37,8 @@ variable "vnet_resource_group" {
 variable "subnet_name" {
   type = string
 }
+
+variable "microsoftappid" {
+  type    = string
+  default = "78ea090b-f1a2-4036-a711-948d5573687c"
+}
